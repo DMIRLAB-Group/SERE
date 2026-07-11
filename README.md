@@ -21,7 +21,7 @@ This repo contains the source code of paper: *SERE: Structural Example Retrieval
 1. Download the datasets:  
 - [Gao et al.](https://github.com/ArrogantL/ChatGPT4CausalReasoning)  
 - [CPATT](https://github.com/NLPCodebase/Code4CPATT)  
-2. Preprocess the datasets by adding necessary fields required for subsequent steps. You can use `CPATT_dataset_format.ipynb` to preprocess the CPATT dataset by specifying the `split` and `subset_type` for each dataset. (Gao’s dataset can be processed similarly; just ensure the fields are consistent.)  
+2. Preprocess the datasets by adding necessary fields required for subsequent steps. You can use `CPATT_dataset_format.ipynb` to preprocess the CPATT dataset by specifying the `split` and `subset_type` for each dataset. (Gao et al.’s dataset can be processed similarly; just ensure the fields are consistent.)  
 3. Run `utils/dataset_preprocess.py` to process the data (make sure to set the relevant parameters and variables at the beginning and end of the Python script).  
 
 
